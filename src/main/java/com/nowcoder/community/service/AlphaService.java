@@ -1,6 +1,6 @@
 package com.nowcoder.community.service;
 
-import com.nowcoder.community.dao.AlphaDao;
+//import com.nowcoder.community.dao.AlphaDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import javax.annotation.PreDestroy;
 public class AlphaService {
 
     @Autowired
-    private AlphaDao alphaDao;
+//    private AlphaDao alphaDao;
 
     public AlphaService() {
 //        System.out.println("实例化AlphaService");
@@ -29,8 +29,8 @@ public class AlphaService {
 //        System.out.println("销毁AlphaService");
     }
 
-    public String find() {
-        return alphaDao.select();
-    }
+//    public String find() {
+//        return alphaDao.select();
+//    }
 
 }
